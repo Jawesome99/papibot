@@ -1,6 +1,6 @@
 ﻿const yt = require("ytdl-core");
 const { RichEmbed, GuildMember, GuildChannel } = require("discord.js");
-const infoCommand = require("../../commands/info.js");
+const infoCommand = require("../Commands/info.js");
 
 const fileRegExp = new RegExp(/(https:\/\/|http:\/\/).+(\.mp3$|\.wav$)/);
 
